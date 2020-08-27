@@ -18,14 +18,6 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Comment</key>
-				<string>SSDT-EC-USBX-X299.aml</string>
-				<key>Path</key>
-				<string>SSDT-EC-USBX-X299.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
 				<string>SSDT-EC.aml</string>
 				<key>Path</key>
 				<string>SSDT-EC.aml</string>
@@ -42,33 +34,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Comment</key>
-				<string>SSDT-PLUG-X299.aml</string>
-				<key>Path</key>
-				<string>SSDT-PLUG-X299.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
 				<string>SSDT-PMC.aml</string>
 				<key>Path</key>
 				<string>SSDT-PMC.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
-				<string>SSDT-RTC0-RANGE-v2002.aml</string>
-				<key>Path</key>
-				<string>SSDT-RTC0-RANGE-v2002.aml</string>
-			</dict>
-			<dict>
-				<key>Enabled</key>
-				<true/>
-				<key>Comment</key>
-				<string>SSDT-RTC0-RANGE-v3006.aml</string>
-				<key>Path</key>
-				<string>SSDT-RTC0-RANGE-v3006.aml</string>
 			</dict>
 			<dict>
 				<key>Enabled</key>
@@ -329,9 +297,9 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>BundlePath</key>
-				<string>IntelMausi.kext</string>
+				<string>IntelMausiEthernet.kext</string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/IntelMausi</string>
+				<string>Contents/MacOS/IntelMausiEthernet</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1109,7 +1077,7 @@
 		<key>Drivers</key>
 		<array>
 			<string>HfsPlus.efi</string>
-			<string>OpenCanopy.efi</string>
+			<string>NdkBootPicker.efi</string>
 			<string>OpenRuntime.efi</string>
 		</array>
 		<key>Input</key>
